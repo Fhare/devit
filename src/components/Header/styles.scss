@@ -1,0 +1,22 @@
+.header-bg {
+  background-color: var(--neutral-300);
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1.25rem 1rem;
+    max-width: 1120px;
+    width: 100%;
+  
+    img {
+      width: 150px;
+    }
+  
+    div {
+      display: flex;
+      gap: 0.8rem;
+    }
+  }
+}

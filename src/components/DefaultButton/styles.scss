@@ -1,0 +1,13 @@
+.btn-default {
+  width: 140px;
+  height: 40px;
+  background-color: var(--default);
+  border-radius: 0.5rem;
+  border: none;
+  color: var(--light);
+  transition: 0.3s;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}

@@ -1,0 +1,51 @@
+.hero-bg {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  background-color: var(--lightest);
+
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto;
+    position: relative;
+  
+    .hero-text {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      gap: 1rem;
+      width: 500px;
+      max-width: 585px;
+
+      img {
+        width: 480px;
+        margin-bottom: 4rem;
+      }
+      
+      h1 {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: var(--neutral-100);
+      }
+      
+      p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: var(--neutral-400);
+      }
+    }
+
+    .hero-image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      img.person-image {
+        position: absolute;
+      }
+    }
+  }
+}
