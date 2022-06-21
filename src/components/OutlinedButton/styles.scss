@@ -6,6 +6,10 @@
   border: 1px solid var(--light);
   color: var(--light);
   transition: 0.3s;
+  
+  h1 {
+    font-size: 0.9rem;
+  }
 
   &:hover {
     filter: brightness(0.8);

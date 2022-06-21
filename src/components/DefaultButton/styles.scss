@@ -5,8 +5,13 @@
   border-radius: 0.5rem;
   border: none;
   color: var(--light);
+  font-size: 0.8rem;
   transition: 0.3s;
 
+  h1 {
+    font-size: 0.9rem;
+  }
+  
   &:hover {
     filter: brightness(0.9);
   }

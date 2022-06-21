@@ -1,0 +1,30 @@
+.courses-container {
+  margin: 4rem auto;
+  max-width: 1120px;
+  width: 100%;
+
+  .courses-heading {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 2rem;
+  }
+
+  h1.course-title {
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--neutral-300);
+  }
+
+  img {
+    width: 211px;
+  }
+  
+  p.course-description {
+    max-width: 900px;
+    font-size: 1rem;
+    color: var(--neutral-400);
+    margin: 1.5rem 0 4rem;
+  }
+}
