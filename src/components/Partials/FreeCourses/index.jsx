@@ -25,6 +25,8 @@ export function FreeCourses() {
 
         <div className="fc-carousel">
           <FreeCourseCarouselCard />
+          <FreeCourseCarouselCard />
+          <FreeCourseCarouselCard />
         </div>
       </section>
     </div>

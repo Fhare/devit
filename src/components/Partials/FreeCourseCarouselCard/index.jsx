@@ -2,6 +2,8 @@ import { BulletPoint } from "./BulletPoint";
 
 import EmployeeImg from "../../../assets/img-free-course.png";
 
+import "./styles.scss";
+
 export function FreeCourseCarouselCard() {
   return (
     <div className="fc-card">
