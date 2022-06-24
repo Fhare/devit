@@ -12,15 +12,8 @@
     position: relative;
     
     .fc-carousel {
-      position: absolute;
-      left: 500px;
       display: grid;
-      justify-items: center;
       gap: 3rem;
-      grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
-      align-items: center;
-      height: 500px;
-      overflow: hidden;
     }
   }
 }

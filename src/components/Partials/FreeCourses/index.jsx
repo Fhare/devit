@@ -1,3 +1,5 @@
+import Carousel from "react-elastic-carousel";
+
 import { OutlinedButton } from "../../OutlinedButton";
 import { FreeCourseCarouselCard } from "../FreeCourseCarouselCard";
 
@@ -23,11 +25,14 @@ export function FreeCourses() {
           <OutlinedButton>Crie sua conta</OutlinedButton>
         </div>
 
-        <div className="fc-carousel">
+        <Carousel
+          className="fc-carousel"
+          itemsToShow={1}
+        >
           <FreeCourseCarouselCard />
           <FreeCourseCarouselCard />
           <FreeCourseCarouselCard />
-        </div>
+        </Carousel>
       </section>
     </div>
   );
