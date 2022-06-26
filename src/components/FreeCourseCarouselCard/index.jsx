@@ -1,6 +1,4 @@
-import { BulletPoint } from "./BulletPoint";
-
-import EmployeeImg from "../../../assets/img-free-course.png";
+import EmployeeImg from "../../assets/img-free-course.png";
 
 import "./styles.scss";
 
@@ -17,8 +15,6 @@ export function FreeCourseCarouselCard() {
         mollit. Exercitation veniam consequat
         sunt nostrud amet.
       </p>
-
-      <BulletPoint />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import Carousel from "react-elastic-carousel";
 
 import { OutlinedButton } from "../../OutlinedButton";
-import { FreeCourseCarouselCard } from "../FreeCourseCarouselCard";
+import { FreeCourseCarouselCard } from "../../FreeCourseCarouselCard";
 
 import "./styles.scss";
 
@@ -11,12 +11,12 @@ export function FreeCourses() {
     <div className="fc-bg">
       <section className="fc-container">
         <div className="fc-heading">
-          <h1>
+          <h1 className="fc-title">
             <span>Cursos</span>
             <span>Gratuitos</span>
           </h1>
 
-          <p>
+          <p className="fc-description">
             Amet minim mollit non deserunt ullamco est sit
             aliqua dolor do amet sint. Velit officia
             consequat duis enim velit mollit.
@@ -26,8 +26,8 @@ export function FreeCourses() {
         </div>
 
         <Carousel
-          className="fc-carousel"
           itemsToShow={1}
+          showArrows={false}
         >
           <FreeCourseCarouselCard />
           <FreeCourseCarouselCard />

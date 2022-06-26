@@ -11,9 +11,40 @@
     padding: 2rem;
     position: relative;
     
-    .fc-carousel {
-      display: grid;
-      gap: 3rem;
+    .fc-heading {
+      display: flex;
+      flex-direction: column;
+
+      .fc-title {
+        font-size: 3.5rem;
+
+        span {
+          display: block;
+          width: 340px;
+          padding: 0.6rem;
+          color: var(--light);
+          font-weight: bold;
+        }
+
+        span:first-child {
+          background-color: #1A7EF0;
+        }
+
+        span:last-child {
+          background-color: #1A92F6;
+        }
+      }
+
+      .fc-description {
+        font-size: 1.2rem;
+        color: var(--lightest);
+        margin: 3rem 0 1rem;
+      }
+
+      button {
+        width: 220px;
+        height: 45px;
+      }
     }
   }
 }

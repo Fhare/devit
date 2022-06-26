@@ -1,0 +1,38 @@
+.s-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  background-color: var(--lightest);
+
+  .s-container {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  
+    .s-heading,
+    .f-carousel {
+      width: 500px;
+    }
+
+    .s-heading {
+      .s-percent {
+        font-size: 6rem;
+        font-weight: 700;
+      }
+
+      img {
+        display: block;
+        text-align: right;
+        margin-bottom: 4rem;
+      }
+
+      .s-description {
+        font-size: 1rem;
+        color: var(--neutral-400);
+        font-weight: 400;
+      }
+    }
+  }
+}

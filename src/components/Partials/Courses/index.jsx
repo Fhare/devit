@@ -1,4 +1,4 @@
-import { CourseCard } from "../CourseCard";
+import { CourseCard } from "../../CourseCard";
 
 import LogoDefault from "../../../assets/logo-devit-default.svg";
 

@@ -1,0 +1,17 @@
+li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+
+  .bullet {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  span {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+}

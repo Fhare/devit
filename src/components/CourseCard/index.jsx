@@ -1,4 +1,4 @@
-import { DefaultButton } from "../../DefaultButton";
+import { DefaultButton } from "../DefaultButton";
 
 import "./styles.scss";
 
