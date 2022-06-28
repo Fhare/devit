@@ -1,0 +1,29 @@
+.lp-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1120px;
+  margin: 0 auto;
+  height: 70vh;
+
+  .lp-heading {
+    width: 450px;
+
+    .lp-title {
+      font-size: 3rem;
+      line-height: 55px;
+    }
+
+    .lp-description {
+      margin: 3rem 0 1.5rem;
+      font-size: 1rem;
+      color: var(--neutral-400);
+    }
+
+    button.btn-outlined {
+      border: 1px solid var(--default);
+      color: var(--default);
+      margin-right: 1rem;
+    }
+  }
+}
