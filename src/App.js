@@ -5,6 +5,7 @@ import { FreeCourses } from "./components/Partials/FreeCourses";
 import { Method } from "./components/Partials/Method";
 import { Statistics } from "./components/Partials/Statistics";
 import { LearningPlatform } from "./components/Partials/LearningPlatform";
+import { Brands } from "./components/Partials/Brands";
 
 import "./styles/global.scss";
 
@@ -18,6 +19,7 @@ export function App() {
       <Method />
       <Statistics />
       <LearningPlatform />
+      <Brands />
     </>
   );
 }
