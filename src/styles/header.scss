@@ -5,18 +5,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
     padding: 1.25rem 1rem;
-    max-width: 1120px;
-    width: 100%;
+    max-width: 370px;
+    margin: 0 auto;
   
-    img {
-      width: 150px;
-    }
-  
-    div {
-      display: flex;
-      gap: 0.8rem;
+    .logo-white {
+      width: 7.5rem;
     }
   }
 }

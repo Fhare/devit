@@ -1,6 +1,6 @@
-import "./styles.scss";
+import "../styles/bullet.scss";
 
-export function MethodBullet({ bulletColor, title }) {
+export function Bullet({ bulletColor, title }) {
   return (
     <li>
       <div className="bullet" style={{ background: bulletColor }}></div>

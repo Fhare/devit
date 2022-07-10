@@ -1,11 +1,11 @@
-import Carousel from "react-elastic-carousel";
+import { DefaultCarousel } from "../DefaultCarousel";
+import { OutlinedButton } from "../OutlinedButton";
 
-import { OutlinedButton } from "../../OutlinedButton";
-import { FreeCourseCarouselCard } from "../../FreeCourseCarouselCard";
+import data from "../../data/CarouselFreeCourse";
 
-import "./styles.scss";
+import "../../styles/container.freeCourse.scss";
 
-export function FreeCourses() {
+export function FreeCourseContainer() {
   return (
     // fc is FreeCourse short
     <div className="fc-bg">
@@ -25,14 +25,7 @@ export function FreeCourses() {
           <OutlinedButton>Crie sua conta</OutlinedButton>
         </div>
 
-        <Carousel
-          itemsToShow={1}
-          showArrows={false}
-        >
-          <FreeCourseCarouselCard />
-          <FreeCourseCarouselCard />
-          <FreeCourseCarouselCard />
-        </Carousel>
+        <DefaultCarousel data={data} />
       </section>
     </div>
   );

@@ -1,12 +1,12 @@
-import Carousel from "react-elastic-carousel";
+import { DefaultCarousel } from "../DefaultCarousel";
 
-import { StatisticsCarouselCard } from "../../StatisticsCarouselCard";
+import data from "../../data/CarouselStatistics";
 
-import LogoDefault from "../../../assets/logo-devit-default.svg";
+import LogoDefault from "../../assets/logo-devit-default.svg";
 
-import "./styles.scss";
+import "../../styles/container.statistics.scss";
 
-export function Statistics() {
+export function StatisticsContainer() {
   return (
     // s is statistics
     <div className="s-bg">
@@ -24,15 +24,7 @@ export function Statistics() {
           </p>
         </div>
 
-        <Carousel
-          className="f-carousel"
-          itemsToShow={1}
-          showArrows={false}
-        >
-          <StatisticsCarouselCard />
-          <StatisticsCarouselCard />
-          <StatisticsCarouselCard />
-        </Carousel>
+        <DefaultCarousel data={data} />
       </section>
     </div>
   );

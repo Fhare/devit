@@ -1,0 +1,48 @@
+.hero-bg {
+  background-color: var(--lightest);
+
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 370px;
+    margin: 0 auto;
+    padding-top: 4rem;
+
+    .hero-img-logo {
+      width: 12rem;
+      margin-bottom: 3rem;
+    }
+
+    .hero-title {
+      font-size: 1.7rem;
+      font-weight: 700;
+      line-height: 2rem;
+      margin: 0 0 1rem;
+      color: var(--neutral-100);
+    }
+    
+    .hero-description {
+      font-size: 1.2rem;
+      color: var(--neutral-400);
+    }
+
+    .hero-image {
+      width: 100%;
+      position: relative;
+      margin-top: 4rem;
+
+      .hero-img-bg {
+        width: 100%;
+      }
+
+      .hero-img-person {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+    }
+  }
+}

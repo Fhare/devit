@@ -1,10 +1,10 @@
-import { CourseCard } from "../../CourseCard";
+import { CourseCard } from "../CourseCard";
 
-import LogoDefault from "../../../assets/logo-devit-default.svg";
+import LogoDefault from "../../assets/logo-devit-default.svg";
 
-import "./styles.scss";
+import "../../styles/container.course.scss";
 
-export function Courses() {
+export function CourseContainer() {
   return (
     <section className="courses-container">
       <div className="courses-heading">

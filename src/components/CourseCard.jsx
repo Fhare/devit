@@ -1,6 +1,6 @@
-import { DefaultButton } from "../DefaultButton";
+import { DefaultButton } from "./DefaultButton";
 
-import "./styles.scss";
+import "../styles/courseCard.scss";
 
 export function CourseCard() {
   return (
