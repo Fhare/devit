@@ -1,6 +1,6 @@
-import "./styles.scss";
+import "../styles/outlineButton.scss";
 
-export function OutlinedButton({ children }) {
+export function OutlineButton({ children }) {
   return (
     <button
       type="button"

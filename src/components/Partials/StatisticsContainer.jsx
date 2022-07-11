@@ -1,4 +1,4 @@
-import { DefaultCarousel } from "../DefaultCarousel";
+import { StatisticsCarousel } from "../StatisticsCarousel";
 
 import data from "../../data/CarouselStatistics";
 
@@ -24,7 +24,7 @@ export function StatisticsContainer() {
           </p>
         </div>
 
-        <DefaultCarousel data={data} />
+        <StatisticsCarousel data={data} />
       </section>
     </div>
   );

@@ -4,7 +4,7 @@
   justify-content: center;
   width: 330px;
 
-  .fc-card {
+  .carousel-card {
     background-color: var(--light);
     width: 100%;
     border-radius: 15px;
@@ -13,21 +13,35 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 2rem;
     margin-top: 4rem;
     margin-right: 1rem;
   
-    img {
+    .fc-img {
       width: 106px;
     }
   
-    > h2 {
+    .fc-img {
       font-size: 1.4rem;
     }
   
-    > p {
+    .fc-img {
       color: var(--neutral-400);
       font-size: 0.9rem;
+    }
+
+    .statistics-img {
+      margin: 2rem 0;
+    }
+
+    .statistics-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+
+    .statistics-job {
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: var(--neutral-400);
     }
   }
 }

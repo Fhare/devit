@@ -1,4 +1,4 @@
-import "./styles.scss";
+import "../styles/defaultButton.scss";
 
 export function DefaultButton({ children }) {
   return (

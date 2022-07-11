@@ -1,11 +1,11 @@
-import { OutlinedButton } from "../../OutlinedButton";
-import { DefaultButton } from "../../DefaultButton";
+import { OutlineButton } from "../OutlineButton";
+import { DefaultButton } from "../DefaultButton";
 
-import Macbook from "../../../assets/macbook.svg";
+import Macbook from "../../assets/macbook.svg";
 
-import "./styles.scss";
+import "../../styles/container.platform.scss";
 
-export function LearningPlatform() {
+export function PlatformContainer() {
   return (
     <section className="lp-container">
       <div className="lp-heading">
@@ -17,11 +17,11 @@ export function LearningPlatform() {
           sunt nostrud amet.
         </p>
 
-        <OutlinedButton>Alunos</OutlinedButton>
+        <OutlineButton>Alunos</OutlineButton>
         <DefaultButton>Empresas</DefaultButton>
       </div>
 
-      <img src={Macbook} alt="macbook" />
+      <img src={Macbook} alt="macbook" className="macbook-img" />
     </section>
   );
 }

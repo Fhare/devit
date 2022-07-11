@@ -1,5 +1,5 @@
-import { DefaultCarousel } from "../DefaultCarousel";
-import { OutlinedButton } from "../OutlinedButton";
+import { FreeCourseCarousel } from "../FreeCourseCarousel";
+import { OutlineButton } from "../OutlineButton";
 
 import data from "../../data/CarouselFreeCourse";
 
@@ -22,10 +22,10 @@ export function FreeCourseContainer() {
             consequat duis enim velit mollit.
           </p>
 
-          <OutlinedButton>Crie sua conta</OutlinedButton>
+          <OutlineButton>Crie sua conta</OutlineButton>
         </div>
 
-        <DefaultCarousel data={data} />
+        <FreeCourseCarousel data={data} />
       </section>
     </div>
   );

@@ -1,0 +1,17 @@
+.b-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.6rem;
+  width: 100%;
+  margin-top: 3rem;
+
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: var(--light);
+    border-radius: 15px;
+  }
+}

@@ -4,9 +4,9 @@ import { CourseContainer } from "./components/Partials/CourseContainer";
 import { FreeCourseContainer } from "./components/Partials/FreeCourseContainer";
 import { MethodContainer } from "./components/Partials/MethodContainer";
 import { StatisticsContainer } from "./components/Partials/StatisticsContainer";
-import { LearningPlatform } from "./components/Partials/LearningPlatform";
-import { Brands } from "./components/Partials/Brands";
-import { Footer } from "./components/Partials/Footer";
+import { PlatformContainer } from "./components/Partials/PlatformContainer";
+import { BrandContainer } from "./components/Partials/BrandContainer";
+import { Footer } from "./components/Footer";
 
 import "./styles/global.scss";
 
@@ -19,9 +19,9 @@ export function App() {
       <FreeCourseContainer />
       <MethodContainer />
       <StatisticsContainer />
-      {/* <LearningPlatform />
-      <Brands />
-      <Footer /> */}
+      <PlatformContainer />
+      <BrandContainer />
+      <Footer />
     </>
   );
 }

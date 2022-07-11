@@ -7,7 +7,7 @@ import {
 
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
-import "./styles.scss";
+import "../styles/footer.scss";
 
 export function Footer() {
   return (

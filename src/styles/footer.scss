@@ -1,12 +1,14 @@
 .bg-footer {
   background-color: var(--darkest);
-  padding: 4rem 0;
+  padding: 2rem 0;
 
   footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
     margin: 0 auto;
-    max-width: 1120px;
+    max-width: 330px;
 
     div {
       width: 300px;

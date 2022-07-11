@@ -1,11 +1,9 @@
-import { BrandsContainer } from "../../BrandsContainer";
-import { OutlinedButton } from "../../OutlinedButton";
+import { Brands } from "../Brands";
+import { OutlineButton } from "../OutlineButton";
 
-import LogoDefault from "../../../assets/logo-devit-default.svg";
+import "../../styles/container.brand.scss";
 
-import "./styles.scss";
-
-export function Brands() {
+export function BrandContainer() {
   return (
     <div className="brand-bg">
       <section className="brand-container">
@@ -18,10 +16,10 @@ export function Brands() {
             mollit. Exercitation veniam consequat sunt
             nostrud amet.
           </p>
-          <OutlinedButton>Quero ser um parceiro</OutlinedButton>
+          <OutlineButton>Quero ser um parceiro</OutlineButton>
         </div>
 
-        <BrandsContainer />
+        <Brands />
       </section>
     </div>
   );
