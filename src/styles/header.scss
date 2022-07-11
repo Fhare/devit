@@ -6,11 +6,18 @@
     align-items: center;
     justify-content: space-between;
     padding: 1.25rem 1rem;
-    max-width: 370px;
+    width: 100%;
     margin: 0 auto;
   
     .logo-white {
       width: 7.5rem;
+    }
+  }
+
+  @media screen and (min-width: 1120px) {
+    header {
+      width: 100%;
+      max-width: 1120px;
     }
   }
 }

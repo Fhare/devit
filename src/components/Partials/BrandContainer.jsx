@@ -7,7 +7,7 @@ export function BrandContainer() {
   return (
     <div className="brand-bg">
       <section className="brand-container">
-        <div>
+        <div className="brand-content">
           <h1 className="brand-title">Empresas que confiam na metodologia</h1>
 
           <p className="brand-description">

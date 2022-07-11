@@ -8,7 +8,7 @@ export function HeroContainer() {
   return (
     <div className="hero-bg">
       <main>
-        <section>
+        <section className="hero-desc">
           <img className="hero-img-logo" src={HeroLogo} alt="Devit" />
 
           <h1 className="hero-title">Amet minim mollit non deserunt ullamco est sit

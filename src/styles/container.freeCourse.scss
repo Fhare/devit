@@ -3,11 +3,12 @@
   padding: 2rem 0;
 
   .fc-container {
-    max-width: 330px;
+    width: 330px;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
+    padding: 0 1.25rem;
     
     .fc-heading {
       display: flex;
@@ -41,6 +42,23 @@
       button {
         width: 100%;
         height: 45px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1120px) {
+    .fc-container  {
+      max-width: 1120px;
+      width: 100%;
+      justify-content: space-evenly;
+      flex-direction: row;
+
+      .fc-heading {
+        width: 400px;
+
+        button {
+          width: 220px;
+        }
       }
     }
   }

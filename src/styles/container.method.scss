@@ -1,5 +1,5 @@
-.method-container  {
-  max-width: 330px;
+.method-container {
+  width: 330px;
   margin: 0 auto;
   padding: 2rem 0;
   display: flex;
@@ -24,5 +24,17 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .method-container {
+    max-width: 1120px;
+    width: 100%;
+
+    .method-img {
+      max-width: 515px;
+      margin: 4rem 0;
+    }
   }
 }

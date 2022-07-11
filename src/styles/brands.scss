@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 0.6rem;
-  width: 100%;
   margin-top: 3rem;
 
   .item {
@@ -13,5 +12,16 @@
     height: 100px;
     background-color: var(--light);
     border-radius: 15px;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .b-container {
+    margin-top: 0;
+
+    .item {
+      width: 160px;
+      height: 160px;
+    }
   }
 }

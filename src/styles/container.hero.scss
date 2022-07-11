@@ -6,10 +6,9 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    max-width: 330px;
-    height: 100vh;
+    width: 100%;
     margin: 0 auto;
-    padding-top: 4rem;
+    padding: 3rem 2rem;
 
     .hero-img-logo {
       width: 12rem;
@@ -44,6 +43,30 @@
         left: 0;
         width: 100%;
       }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    main {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+      width: 768px;
+
+      .hero-desc {
+        width: 500px;
+      }
+      
+      .hero-image {
+        width: 500px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1120px) {
+    main {
+      width: 100%;
+      max-width: 1120px;
     }
   }
 }

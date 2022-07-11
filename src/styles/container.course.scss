@@ -1,25 +1,25 @@
 .courses-container {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  max-width: 370px;
+  text-align: left;
+  max-width: 330px;
   margin: 0 auto;
   padding: 4rem 0;
 
   .courses-heading {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 
     .course-title {
       padding-top: 1rem;
       font-size: 1.6rem;
       font-weight: 700;
+      line-height: 1.6rem;
       color: var(--neutral-300);
     }
-  
+
     > img {
       width: 12rem;
+      margin-right: 1rem;
     }
   }
 
@@ -28,5 +28,12 @@
     font-size: 1rem;
     color: var(--neutral-400);
     margin: 1.5rem 0 4rem;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .courses-container {
+    max-width: 1120px;
+    width: 100%;
   }
 }
